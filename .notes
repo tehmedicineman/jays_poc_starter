@@ -1,0 +1,54 @@
+Thoughts/Questions
+	"Approval Workflow" is attached to the "Data Object"?
+		Could possible Super an Approval Workflow to a "Data Domain", which is overwritable... actually i kinda like that Idea
+		These workflows could be re-usable... aka you don't assign each part of the workflow to each object/domain, but instead assign a "Workflow" to the object/domain
+	Do we just want this to plug off emails with links?
+
+Workflow
+	:Request
+		Submitted By Requestor
+		Sent to first "Approver"
+		Sent to next "Approver"
+		etc... marked as "Approved" when done through the workflow
+		Sent to "Data Warehouse Staff"
+		Marked as "Completed"
+
+	Requestor
+		Submitting a Request
+			Login
+			Fill out form
+				¿Accessor Account?
+					I assume this process will want to be used for not just personal accounts so this would make sense to add as well
+				Data Domain
+				Data Object
+				Access Type (CRUD)
+				Reason for Access
+			Wait For Approval
+				Maybe back/forth with Datawarehouse Staff for account in and/or approvers for clarification, but this would be communication not functionality
+			View Approval response
+				probably includes anything about accounts to gain access
+
+	Supervisor / Data Stewards / Additional Approvers
+		Finding Requests
+			Login
+			View a page with requests
+				assume we will want to be able to specifically view open/closed requests, maybe various filtering so-on-so-forth.
+		Approving Request
+			Login
+			Find/Navigate to request.
+			Mark approval
+				Can also fill in "Reason Statement" here... comments O.o
+
+	Data Warehouse Staff
+		Finding Requests
+			Login
+			View a page with requests
+				assume we will want to be able to specifically view open/closed requests, maybe various filtering so-on-so-forth.
+
+Jay Stuff
+	Workflow
+		
+	Request
+		RequestID
+		...fields
+	
